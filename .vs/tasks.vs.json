@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-n3na3",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-n3na3",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

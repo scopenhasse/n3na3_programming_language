@@ -1,0 +1,27 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "name": "CMakeLists.txt",
+      "project": "CMakeLists.txt",
+      "projectTarget": "",
+      "cwd": "${workspaceRoot}",
+      "program": "${debugInfo.target}",
+      "MIMode": "gdb",
+      "miDebuggerPath": "${env.MINGW_PREFIX}\\bin\\gdb.exe",
+      "externalConsole": false,
+      
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "n3na3.exe (C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\n3na3.exe)",
+      "name": "n3na3.exe (C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\n3na3.exe)",
+      "args": [
+        "test.n3"
+      ]
+    }
+  ]
+}
