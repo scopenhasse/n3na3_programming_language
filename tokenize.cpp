@@ -57,6 +57,7 @@ void Tokenize::tokenizer()
 		}
 		else if (peek().value()== ';')
 		{
+			consume();
 			tokens.push_back(Token(Type_Token::_Delim));
 			continue;
 		}
@@ -76,21 +77,18 @@ void Tokenize::tokenizer()
 }
 
 [[nodiscard]] optional <char> Tokenize::peek(int peakAt) {
-	if (currentPos + peakAt > input_string.length()) {
+	if (currentPos + peakAt >= input_string.length()) {
 		return {};
 	}
 	else {
-		return input_string[currentPos + peakAt];
+		return input_string.at(currentPos + peakAt);
 	}
 }
 
 char Tokenize::consume() {
-	if (currentPos < input_string.length()) {
-		return input_string[currentPos++];
-	}
-	else {
-		return {};
-	}
+
+	return input_string.at(currentPos++);
+
 }
 
 void Tokenize::tokens_to_asm() {
@@ -107,6 +105,6 @@ void Tokenize::asm_to_machine_code(){
 	fstream outFile("main.asm", ios::out);
 	outFile << this->asm_code;
 	outFile.close();
-	system("nasm - f win64 - o main.obj main.asm");
+	system("nasm -f win64 -o main.obj main.asm");
 	system("gcc -o main.exe main.obj");
 }

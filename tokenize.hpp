@@ -30,7 +30,7 @@ public:
 	Tokenize(fstream inputfile);
 	~Tokenize();
 	void tokenizer();
-	[[nodiscard]] optional<char> peek(int peakAt = 1);
+	[[nodiscard]] optional<char> peek(int peakAt = 0);
 	char consume();
 	void tokens_to_asm();
 	void asm_to_machine_code();
