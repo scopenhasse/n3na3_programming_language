@@ -4,5 +4,11 @@
 #pragma once
 
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <optional>
+#include <vector>
+#include "tokenize.hpp"
 
 // TODO: Reference additional headers your program requires here.
