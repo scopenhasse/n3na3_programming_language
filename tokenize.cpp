@@ -2,10 +2,6 @@
 
 using namespace std;
 
-Tokenize::Tokenize()
-{
-}
-
 Tokenize::Tokenize(fstream inputfile)
 {
 	stringstream input_content;

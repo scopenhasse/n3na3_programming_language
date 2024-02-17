@@ -26,7 +26,6 @@ struct Token {
 class Tokenize
 {
 public:
-	explicit Tokenize();
 	Tokenize(fstream inputfile);
 	~Tokenize();
 	void tokenizer();
@@ -38,7 +37,7 @@ private:
 
 	vector<Token> tokens;
 	string input_string;
-	int currentPos = 0;
+	size_t currentPos = 0;
 	string asm_code;
 
 };
