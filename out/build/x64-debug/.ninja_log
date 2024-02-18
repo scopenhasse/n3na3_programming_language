@@ -1,20 +1,9 @@
 # ninja log v5
-8	1244	7299615407437732	CMakeFiles/n3na3.dir/n3na3.cpp.obj	fc3447b88077cac2
-664	868	7296538473503844	n3na3.exe	5c4f7abee26beb65
-952	1433	7299627109417104	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	1f4a8d3e3b37ae4e
-2	120	7299627538078308	build.ninja	636f47428ad3734c
-11	1258	7299615407557729	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
-2	1168	7298033352098723	CMakeFiles/n3na3.dir/tokenizer.cpp.obj	4150b287f388029d
-1	952	7299627105346547	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
-10	321	7299633687340159	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
-333	511	7299633688706268	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
-22	1317	7299679674656445	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
-19	1323	7299679674706423	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
-9	805	7299679765947094	CMakeFiles/n3na3.dir/n3na3.cpp.obj	fc3447b88077cac2
-12	879	7299679994672427	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
-879	1319	7299679998388349	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
 11	907	7299682053110396	CMakeFiles/n3na3.dir/n3na3.cpp.obj	fc3447b88077cac2
 20	920	7299682053274990	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
-17	923	7299682053320106	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
-14	972	7299682053801511	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
+664	868	7296538473503844	n3na3.exe	5c4f7abee26beb65
 972	1216	7299682055695795	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
+2	120	7299695007588314	build.ninja	636f47428ad3734c
+14	972	7299682053801511	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
+2	1168	7298033352098723	CMakeFiles/n3na3.dir/tokenizer.cpp.obj	4150b287f388029d
+17	923	7299682053320106	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
