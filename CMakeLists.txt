@@ -14,7 +14,7 @@ project ("n3na3")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
 
 # Add source to this project's executable.
-add_executable (n3na3 "n3na3.cpp" "n3na3.h" "tokenize.cpp" "parser.cpp")
+add_executable (n3na3 "n3na3.cpp" "n3na3.h" "tokenize.cpp" "parser.cpp" "generate.cpp")
 
 set(COMMAND_LINE_ARGS "test.n3")
 

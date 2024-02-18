@@ -2,7 +2,7 @@
 
 #include "tokenize.hpp"
 #include <vector>
-
+#include <optional>
 using namespace std;
 
 namespace Node
@@ -19,9 +19,9 @@ namespace Node
 class Parser
 {
 public:
-	explicit Parser();
+	explicit Parser(vector<Token> input_tokens);
 
-	Node::Expression parse_expression();
+	optional<Node::Expression> parse_expression();
 
 	Node::Exit parse_temp();
 

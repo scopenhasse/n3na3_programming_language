@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tokenize.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:parser.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tokenize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tokenize.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\n3na3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -51,8 +51,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-14T22:09:48.615Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-16T16:51:46.744Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -76,46 +74,46 @@
               "RelativeDocumentMoniker": "parser.cpp",
               "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.cpp",
               "RelativeToolTip": "parser.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAkwCYAAAABAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-17T20:46:51.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "parser.hpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.hpp",
               "RelativeDocumentMoniker": "parser.hpp",
               "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.hpp",
               "RelativeToolTip": "parser.hpp",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswBUAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-17T20:45:29.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "tokenize.hpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.hpp",
               "RelativeDocumentMoniker": "tokenize.hpp",
               "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.hpp",
               "RelativeToolTip": "tokenize.hpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwA8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-16T13:27:57.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "tokenize.cpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.cpp",
               "RelativeDocumentMoniker": "tokenize.cpp",
               "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.cpp",
               "RelativeToolTip": "tokenize.cpp",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAswEkAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswE8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-16T13:27:24.468Z",
               "EditorCaption": ""
@@ -130,8 +128,7 @@
               "RelativeToolTip": "test.n3",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-02-15T17:10:57.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T17:10:57.328Z"
             }
           ]
         }

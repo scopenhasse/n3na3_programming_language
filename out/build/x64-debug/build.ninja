@@ -70,6 +70,13 @@ build CMakeFiles\n3na3.dir\parser.cpp.obj: CXX_COMPILER__n3na3_unscanned_Debug C
   TARGET_COMPILE_PDB = CMakeFiles\n3na3.dir\
   TARGET_PDB = C:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\n3na3.pdb
 
+build CMakeFiles\n3na3.dir\generate.cpp.obj: CXX_COMPILER__n3na3_unscanned_Debug C$:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\generate.cpp || cmake_object_order_depends_target_n3na3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  OBJECT_DIR = CMakeFiles\n3na3.dir
+  OBJECT_FILE_DIR = CMakeFiles\n3na3.dir
+  TARGET_COMPILE_PDB = CMakeFiles\n3na3.dir\
+  TARGET_PDB = C:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\n3na3.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target n3na3
@@ -78,7 +85,7 @@ build CMakeFiles\n3na3.dir\parser.cpp.obj: CXX_COMPILER__n3na3_unscanned_Debug C
 #############################################
 # Link the executable C:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\n3na3.exe
 
-build C$:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\n3na3.exe: CXX_EXECUTABLE_LINKER__n3na3_Debug CMakeFiles\n3na3.dir\n3na3.cpp.obj CMakeFiles\n3na3.dir\tokenize.cpp.obj CMakeFiles\n3na3.dir\parser.cpp.obj
+build C$:\Users\pc\Documents\Data\Workbench\N3na3-Workbench\n3na3\n3na3.exe: CXX_EXECUTABLE_LINKER__n3na3_Debug CMakeFiles\n3na3.dir\n3na3.cpp.obj CMakeFiles\n3na3.dir\tokenize.cpp.obj CMakeFiles\n3na3.dir\parser.cpp.obj CMakeFiles\n3na3.dir\generate.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
