@@ -14,9 +14,10 @@ int main(int argc, char* argv[])
 	}
 
 	Tokenize tk((fstream)argv[1]);
-	tk.tokenizer();
-	tk.tokens_to_asm();
-	tk.asm_to_machine_code();
-
+	
+	Parser parser(tk.tokenizer());
+	Generate gn(parser.parse_temp());
+	gn.generater_asm();
+	gn.generater_machine_code();
 	return 0;
 }

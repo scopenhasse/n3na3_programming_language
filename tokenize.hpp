@@ -28,17 +28,14 @@ class Tokenize
 public:
 	Tokenize(fstream inputfile);
 	~Tokenize();
-	void tokenizer();
+	vector<Token> tokenizer();
 	[[nodiscard]] optional<char> peek(int peakAt = 0);
 	char consume();
-	void tokens_to_asm();
-	void asm_to_machine_code();
 private:
 
 	vector<Token> tokens;
 	string input_string;
 	size_t currentPos = 0;
-	string asm_code;
 
 };
 

@@ -14,7 +14,7 @@ Tokenize::~Tokenize()
 {
 }
 
-void Tokenize::tokenizer()
+vector<Token> Tokenize::tokenizer()
 {
 	vector<Token> tokens;
 	string buff;
@@ -70,6 +70,7 @@ void Tokenize::tokenizer()
 	}
 	currentPos = 0;
 	this->tokens = tokens;
+	return tokens;
 }
 
 [[nodiscard]] optional <char> Tokenize::peek(int peakAt) {
@@ -85,22 +86,4 @@ char Tokenize::consume() {
 
 	return input_string.at(currentPos++);
 
-}
-
-void Tokenize::tokens_to_asm() {
-	stringstream output;
-	output << "section .text\n    global main\n";
-	output << "extern ExitProcess\n";
-	output << "main:\n";
-	output << "    mov rcx," << tokens.at(1).value.value() << "\n";
-	output << "    call ExitProcess";
-	this->asm_code = output.str();
-}
-
-void Tokenize::asm_to_machine_code(){
-	fstream outFile("main.asm", ios::out);
-	outFile << this->asm_code;
-	outFile.close();
-	system("nasm -f win64 -o main.obj main.asm");
-	system("gcc -o main.exe main.obj");
 }

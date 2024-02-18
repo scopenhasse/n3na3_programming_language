@@ -10,5 +10,7 @@
 #include <optional>
 #include <vector>
 #include "tokenize.hpp"
+#include "parser.hpp"
+#include "generate.hpp"
 
 // TODO: Reference additional headers your program requires here.
