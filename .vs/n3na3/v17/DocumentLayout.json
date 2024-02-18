@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\test.n3||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.n3||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -46,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "n3na3.cpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\n3na3.cpp",
               "RelativeDocumentMoniker": "n3na3.cpp",
@@ -64,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "n3na3.h",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\n3na3.h",
               "RelativeDocumentMoniker": "n3na3.h",
@@ -78,7 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\Readme.md",
+              "RelativeDocumentMoniker": "Readme.md",
+              "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\Readme.md",
+              "RelativeToolTip": "Readme.md",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-02-18T14:44:34.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "generate.cpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\generate.cpp",
               "RelativeDocumentMoniker": "generate.cpp",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "generate.hpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\generate.hpp",
               "RelativeDocumentMoniker": "generate.hpp",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "parser.cpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.cpp",
               "RelativeDocumentMoniker": "parser.cpp",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "parser.hpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\parser.hpp",
               "RelativeDocumentMoniker": "parser.hpp",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "tokenize.hpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.hpp",
               "RelativeDocumentMoniker": "tokenize.hpp",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "tokenize.cpp",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\tokenize.cpp",
               "RelativeDocumentMoniker": "tokenize.cpp",
@@ -156,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "test.n3",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\test.n3",
               "RelativeDocumentMoniker": "test.n3",
               "ToolTip": "C:\\Users\\pc\\Documents\\Data\\Workbench\\N3na3-Workbench\\n3na3\\test.n3",
               "RelativeToolTip": "test.n3",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-02-15T17:10:57.328Z",
               "EditorCaption": ""
