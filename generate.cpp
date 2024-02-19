@@ -14,7 +14,7 @@ Generate::~Generate()
 	output << "section .text\n    global main\n";
 	output << "extern ExitProcess\n";
 	output << "main:\n";
-	output << "    mov rcx," << root_node.exp.int_value.value.value() << "\n";
+	output << "    mov rcx," << "root_node.exp.value" << "\n";
 	output << "    call ExitProcess";
 	this->asm_code = output.str();
 	return this->asm_code;

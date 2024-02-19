@@ -1,9 +1,20 @@
 # ninja log v5
-11	907	7299682053110396	CMakeFiles/n3na3.dir/n3na3.cpp.obj	fc3447b88077cac2
-20	920	7299682053274990	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
+2	856	7299938362705566	CMakeFiles/n3na3.dir/n3na3.cpp.obj	6f566f64b1d8b181
+15	1051	7299937233818068	CMakeFiles/n3na3.dir/generate.cpp.obj	b305299d088af4bc
 664	868	7296538473503844	n3na3.exe	5c4f7abee26beb65
-972	1216	7299682055695795	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
-2	120	7299695007588314	build.ninja	636f47428ad3734c
-14	972	7299682053801511	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
+957	1321	7299938592863771	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	f011cacf6c5f14bf
+2	120	7300791750488362	build.ninja	636f47428ad3734c
+177	2492	7299936351952495	CMakeFiles/n3na3.dir/tokenize.cpp.obj	de2ceed10f7cd9f1
 2	1168	7298033352098723	CMakeFiles/n3na3.dir/tokenizer.cpp.obj	4150b287f388029d
-17	923	7299682053320106	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
+11	957	7299938590184535	CMakeFiles/n3na3.dir/parser.cpp.obj	c3d7d8d01541e4cd
+11	1350	7300810942470077	CMakeFiles/n3na3.dir/n3na3.cpp.obj	fc3447b88077cac2
+15	1374	7300810942716320	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
+18	1492	7300810943895180	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
+10	822	7300811229028311	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
+823	1245	7300811232606017	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
+10	1174	7300825211509228	CMakeFiles/n3na3.dir/tokenize.cpp.obj	9719b0cfbe3409ea
+17	1261	7300825212378844	CMakeFiles/n3na3.dir/generate.cpp.obj	93c3766103043cad
+15	1076	7300825622303133	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
+1076	1299	7300825623913294	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7
+11	845	7300825683811490	CMakeFiles/n3na3.dir/parser.cpp.obj	14ccfee2ecb9da2a
+846	995	7300825684840589	C:/Users/pc/Documents/Data/Workbench/N3na3-Workbench/n3na3/n3na3.exe	b9712bd901d8a4e7

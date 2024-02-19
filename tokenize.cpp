@@ -33,6 +33,11 @@ vector<Token> Tokenize::tokenizer()
 				buff.clear();
 				continue;
 			}
+			else if (buff == "var") {
+				tokens.push_back(Token(Type_Token::_var));
+				buff.clear();
+				continue;
+			}
 			else
 			{
 				cout << "Error: " << buff << " is not a valid command" << endl;
@@ -57,6 +62,12 @@ vector<Token> Tokenize::tokenizer()
 			tokens.push_back(Token(Type_Token::_Delim));
 			continue;
 		}
+		else if (peek().value() == '=')
+		{
+			consume();
+			tokens.push_back(Token(Type_Token::_Assign));
+			continue;
+		}
 		else if (isspace(peek().value()))
 		{
 			consume();
@@ -64,8 +75,10 @@ vector<Token> Tokenize::tokenizer()
 		}
 		else
 		{
-			cout << "Error: " << peek().value() << " is not a valid character" << endl;
-			exit(EXIT_FAILURE);
+			consume();
+			tokens.push_back({.type = Type_Token::_Ident,.value = buff});
+			buff.clear();
+			continue;
 		}
 	}
 	currentPos = 0;

@@ -1,1 +1,2 @@
-exit 90;
+var x = 10;
+exit x;

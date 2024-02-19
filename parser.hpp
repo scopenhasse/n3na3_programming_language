@@ -3,16 +3,38 @@
 #include "tokenize.hpp"
 #include <vector>
 #include <optional>
+#include <variant>
 using namespace std;
 
 namespace Node
 {
-	struct Expression {
+	struct Int_Expression {
 		Token int_value;
 	};
 
+	struct Ident_Expression {
+		Token ident_value;
+	};
+
+	struct Expression {
+		variant<Int_Expression, Ident_Expression> value;
+	};
+
 	struct Exit {
-		Node::Expression exp;
+		Expression exit;
+	};
+
+	struct Statement_var {
+		Token ident;
+		Expression expression;
+	};
+
+	struct Statement {
+		variant<Exit, Statement_var> value;
+	};
+
+	struct Prog {
+		vector<Statement> expressions;
 	};
 }
 
@@ -23,7 +45,9 @@ public:
 
 	optional<Node::Expression> parse_expression();
 
-	Node::Exit parse_temp();
+	optional<Node::Statement> parse_statement();
+
+	optional<Node::Prog> parse_prog();
 
 	[[nodiscard]] optional<Token> peek(int peakAt = 0);
 	Token consume();

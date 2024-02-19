@@ -25,7 +25,11 @@ optional<Node::Expression> Parser::parse_expression()
 {
 	if (peek().has_value() && peek().value().type == Type_Token::_Int)
 	{
-		return Node::Expression{.int_value = consume()};
+		return Node::Expression{ .value = Node::Int_Expression{.int_value = consume()}};
+	}
+	else if (peek().has_value() && peek().value().type == Type_Token::_Ident)
+	{
+		return Node::Expression{ .value = Node::Ident_Expression{.ident_value = consume()}};
 	}
 	else
 	{
@@ -33,41 +37,60 @@ optional<Node::Expression> Parser::parse_expression()
 	}
 }
 
-
-Node::Exit Parser::parse_temp()
+optional <Node::Statement> Parser::parse_statement()
 {
-	Node::Exit exit_node;
-	while (peek().has_value())
+	if (peek().value().type == Type_Token::_EXIT)
 	{
-		if (peek().value().type == Type_Token::_EXIT)
+		consume();
+		Node::Exit statexit;
+		if (auto exp = parse_expression())
 		{
-			consume();
-		    if(auto exp = parse_expression())
-			{
-				exit_node.exp = exp.value();
-			}
-			else
-			{
-				cout << "Error: is not a valid expression" << endl;
-				exit(EXIT_FAILURE);
-			}
-			if (peek().has_value() && peek().value().type == Type_Token::_Delim)
-			{
-				consume();
-			}
-			else
-			{
-				cout << "Expection a ;" << endl;
-				exit(EXIT_FAILURE);
-			}
+			statexit.exit = exp.value();
 		}
 		else
 		{
-			cout << "Error: is not a Exit function" << endl;
+			cout << "Error: is not a valid expression" << endl;
 			exit(EXIT_FAILURE);
 		}
-	}
-	currentPos = 0;
-	return exit_node;
-}
+		if (peek().has_value() && peek().value().type == Type_Token::_Delim)
+		{
+			consume();
+		}
+		else
+		{
+			cout << "Expection a ;" << endl;
+			exit(EXIT_FAILURE);
+		}
 
+		return Node::Statement{ .value = statexit };
+	}
+	else if (peek().has_value() && peek().value().type == Type_Token::_var && peek(1).has_value() && peek(1).value().type == Type_Token::_Ident && peek(2).has_value() && peek(2).value().type == Type_Token::_Assign)
+	{
+		consume();
+		auto varStat = Node::Statement_var{ .ident = consume() };
+		consume();
+		if(auto exp = parse_expression())
+		{
+			varStat.expression = exp.value();
+		}
+		else
+		{
+			cout << "Error: is not a valid expression" << endl;
+			exit(EXIT_FAILURE);
+		}
+		if (peek().has_value() && peek().value().type == Type_Token::_Delim)
+		{
+			consume();
+		}
+		else
+		{
+			cout << "Expection a ;" << endl;
+			exit(EXIT_FAILURE);
+		}
+		return Node::Statement{ .value = varStat };
+	}
+	else
+	{
+		return {};
+	}
+}

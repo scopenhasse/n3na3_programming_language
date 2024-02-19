@@ -13,11 +13,11 @@ int main(int argc, char* argv[])
 		return EXIT_FAILURE;
 	}
 
-	Tokenize tk((fstream)argv[1]);
+	// Tokenize tk((fstream)argv[1]);
 	
-	Parser parser(tk.tokenizer());
-	Generate gn(parser.parse_temp());
-	gn.generater_asm();
-	gn.generater_machine_code();
+	// Parser parser(tk.tokenizer());
+	// Generate gn(parser.parse_temp());
+	// gn.generater_asm();
+	// gn.generater_machine_code();
 	return 0;
 }

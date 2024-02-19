@@ -13,7 +13,10 @@ using namespace std;
 enum class Type_Token {
 	_EXIT,
 	_Int,
-	_Delim
+	_Delim,
+	_Ident,
+	_var,
+	_Assign
 };
 
 // token struct : defines the token struct type and the value
